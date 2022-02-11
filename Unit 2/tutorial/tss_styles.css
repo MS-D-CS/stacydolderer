@@ -1,11 +1,16 @@
+@charset "utf-8"
+@font-face{
+   font-family: Quicksand;
+   src: url("Quicksand-Regular.woff") format('woff'), url('Quicksand-Regular.ttf'), format('truetype');
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Tutorial Case
    
    TSS Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Stacy D
+   Date:   2-11-22
    
    Filename: tss_styles.css
 
@@ -14,27 +19,54 @@
 
 
 /* HTML and Body Styles */
+html{
+   background-color: hs1(27,72%,72%);
+}
 
-
-
+body{
+   color: rgb(91, 91, 91);
+   background-color: ivory;
+   font-family: Verdana, Geneva, sans-serif;
+}
 
 
 /* Heading Styles */
-
-
-
+h1{
+   font-size: 2.2em;
+}
+h2{
+   font-size: 1.5em;
+}
+article#about_tss h1{
+   color: white;
+   background-color: rgb(222, 128, 60);
+}
+article#about_tss h2{
+   color: white;
+   background-color: rgb(235, 177, 131);
+}
+h1, h2{
+   font-family: Quicksand, Verdana, Geneva, sans-serif;
+}
 
 
 
 /* Aside and Blockquote Styles */
 
-
-
-
-
+aside blockquote{
+   color: rgb(232, 165, 116);
+}
+aside{
+   font-size: 0.8em;
+}
+aside blockquote{
+   color: rgb(232, 165, 116);
+}
 /* Navigation Styles */	
 
-
+nav{
+   font-size: 0.8em;
+}
 
 
 
