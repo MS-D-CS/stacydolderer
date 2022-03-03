@@ -81,7 +81,7 @@ main{
 .post{
     width: 90%; 
     border: 1px solid black; 
-    padding: 24px 24px 48px 24px; 
+    padding: 24px; 
     margin-left: auto; 
     margin-bottom: 24px; 
     margin-right: auto; 
