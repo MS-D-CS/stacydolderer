@@ -5,7 +5,7 @@ body, html {
   color: White;
 }
 
-.cd-logo, .kitchen-equipment, .cake-ingredients, .instructions{
+.cd-logo, .kitchen-equipment, .cake-ingredients, .instructions, .notes{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,6 +45,9 @@ h3 {
 }
 .instructions{
   background-image: url("lasagna_done.png")
+}
+.notes{
+  background-image: url("freezer.jpg");
 }
 
 .caption{
