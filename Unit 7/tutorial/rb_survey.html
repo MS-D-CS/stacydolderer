@@ -7,7 +7,7 @@
       Tutorial Case
 
       Red Ball Pizza Survey Form
-      Author: 
+      Author: Stacy Dolderer
       Date:   
 
       Filename:   rb_survey.html
@@ -19,7 +19,7 @@
    <title>Red Ball Survey</title>
    <link href="rb_reset.css" rel="stylesheet" />
    <link href="rb_styles.css" rel="stylesheet" />
-
+   <script src="rb_formsubmit.js"></script>
 </head>
 
 <body>
@@ -52,8 +52,46 @@
          parties, <em>ever</em>. </p>
       <p>Required values are marked by an asterisk (*)</p>
 
-     
+     <form id="survey" action="http://www.example.com/redball/survey" method="post">
+         <fieldset id="custInfo">
+            <legend>Customer Info</legend>
+
+            <div class="formRow">
+               <label for="name">Name*</label>
+               <input name="custName" id="name" type="text" />
+            </div>
+            <div class="formRow"></div>
+               <label for="street">Street address</label>
+               <input name="custStreet" id="street" type="text"/>
+            </div>
+            <div class="formRow"></div>
+               <label for="city">City</label>
+               <input name="custCity" id="city" type="text" />
+            </div>
+            <div class="formRow"></div>
+               <label for="state">State</label>
+               <input name="custState" id="state" type="text" />
+            </div>
+            <div class="formRow"></div>
+               <label for="zip">Postal code</label> 
+               <input name="custZip" id="zip" type="text" />
+            </div>
+            <div class="formRow"></div>
+               <label for="phone">Phone number</label> 
+               <input name="custPhone" id="phone" type="text" />
+            </div>
+            <div class="formRow"></div>
+               <label for="mail">E-mail* </label>
+               <input name="custEmal" id="mail" type="text" />
+            </div>
+         </fieldset>
+         <fieldset id="expInfo">
+            <legend>Share Youre Experience at Red Ball Pizza</legend>
+         </fieldset>
+
+     </form>
    </section>
+   
    <footer>
       <h1>ORDER</h1>
       <a href="#">Specials</a> <a href="#">Pizza</a> <a href="#">Pasta</a> <a href="#">Wings</a> <a href="#">Sides</a> <a href="#">Salads</a> <a href="#">Drinks</a> <a href="#">Desserts</a>
